@@ -1,0 +1,11 @@
+torch>=2.1.0
+transformers>=4.45.0
+accelerate>=0.30.0
+bitsandbytes>=0.43.0      # 4-bit drafter only
+rouge-score>=0.1.2        # lossy-method quality only; losslessness uses token ids
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+pytest>=7.0.0
+# faiss-cpu>=1.8.0        # optional: HybridDrafter falls back to numpy, which is
+#                         # faster than faiss at these index sizes anyway
