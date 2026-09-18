@@ -1,0 +1,16 @@
+{
+  "gamma": {
+    "ngram": 4,
+    "hybrid": 6,
+    "spec_1b": 2
+  },
+  "max_new_tokens": 128,
+  "dtype": "torch.float16",
+  "gpu": {
+    "gpu": "Tesla T4",
+    "n_gpu": 2,
+    "capability": "7.5",
+    "vram_gb": 14.6,
+    "bf16": false
+  }
+}
