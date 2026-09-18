@@ -261,5 +261,4 @@ produced it is much easier to accidentally misuse than one with it.
 
 ## License
 
-MIT (or match whatever license fits your use — update this line for your
-actual repository).
+MIT .
